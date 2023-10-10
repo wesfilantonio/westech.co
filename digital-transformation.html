@@ -1,0 +1,1867 @@
+<!DOCTYPE html>
+<html class="no-js html" lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PFK45T7");
+    </script>
+    <!-- End Google Tag Manager -->
+    <link
+      rel="preload"
+      as="font"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/fonts/subset-SuisseIntl-Medium.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/fonts/subset-SuisseIntl-Light.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/fonts/subset-SuisseIntl-Bold.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/fonts/subset-SuisseIntl.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <style id="critical-css">
+      a.theme-switcher-link {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        outline: 0;
+        display: block;
+        width: 24px;
+        height: 15px;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        border-radius: 10px;
+        padding: 0;
+        margin-top: -4px;
+      }
+      a.theme-switcher-link:before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 13px;
+        height: 13px;
+        transition: none;
+        opacity: 1;
+        bottom: auto;
+        top: 0;
+        left: auto;
+        transition: all 0.2s ease;
+        border-radius: 50%;
+        background: #fff;
+      }
+      a.theme-switcher-link:after {
+        display: none;
+      }
+      .theme-light a.theme-switcher-link {
+        border: 1px solid transparent;
+      }
+      .theme-light a.theme-switcher-link:before {
+        right: 0;
+      }
+      .theme-dark a.theme-switcher-link:before {
+        right: 10px;
+      }
+      .theme-switcher-link.mobile-only {
+        margin-left: 30px;
+        margin-bottom: 5px;
+      }
+      #header {
+        position: fixed;
+        z-index: 998;
+        left: 0;
+        right: 0;
+        top: 0;
+      }
+      #header .container,
+      #header .row {
+        height: 100%;
+      }
+      #header .logo:after {
+        display: none;
+      }
+      .admin-bar #header {
+        top: 32px;
+      }
+      @media (max-width: 782px) {
+        .admin-bar #header {
+          top: 46px;
+        }
+      }
+      @media (max-width: 600px) {
+        .admin-bar #header {
+          top: 0;
+        }
+      }
+      @media (max-width: 600px) {
+        html.html {
+          margin-top: 0 !important;
+        }
+        html.html #wpadminbar {
+          display: none !important;
+        }
+      }
+      @media (min-width: 820px) {
+        #mobile-menu {
+          display: none;
+        }
+        #header .row {
+          height: 95px;
+        }
+        #header .container {
+          max-width: 1440px;
+          padding-left: 55px;
+          padding-right: 55px;
+        }
+        #header nav ul.menu {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: flex-end;
+        }
+        #header nav ul.menu > .menu-item {
+          display: block;
+          margin: 0 40px 0 0;
+          padding: 0;
+          font-size: 17px;
+        }
+        #header nav ul.menu > .menu-item > a {
+          display: block;
+        }
+        #header nav ul.menu > .menu-item-has-children > a {
+          padding-right: 20px;
+          background-position: right 7px;
+          background-repeat: no-repeat;
+        }
+        #header nav ul.menu > .menu-item-has-children.is-active > a:focus:after,
+        #header
+          nav
+          ul.menu
+          > .menu-item-has-children.is-active
+          > a:active:after {
+          display: none !important;
+        }
+        #header nav ul.menu li:last-of-type {
+          margin-right: 0;
+        }
+        #content {
+          padding-top: 95px;
+        }
+        .theme-dark #header nav ul.menu > .menu-item-has-children > a,
+        .theme-light
+          #header
+          .midnightHeader.white
+          nav
+          ul.menu
+          > .menu-item-has-children
+          > a {
+          background-image: url(/wp-content/themes/bilberrry/assets/images/menu-down-white.svg);
+        }
+        .theme-dark #header nav ul.menu > .menu-item-has-children.is-active > a,
+        .theme-light
+          #header
+          .midnightHeader.white
+          nav
+          ul.menu
+          > .menu-item-has-children.is-active
+          > a {
+          background-image: url(/wp-content/themes/bilberrry/assets/images/menu-up-white.svg);
+        }
+        .theme-light #header nav ul.menu > .menu-item-has-children > a,
+        .is-services-open.theme-light
+          #header
+          .midnightHeader.white
+          nav
+          ul.menu
+          > .menu-item-has-children
+          > a {
+          background-image: url(/wp-content/themes/bilberrry/assets/images/menu-down-dark.svg);
+        }
+        .theme-light
+          #header
+          nav
+          ul.menu
+          > .menu-item-has-children.is-active
+          > a,
+        .is-services-open.theme-light
+          #header
+          .midnightHeader.white
+          nav
+          ul.menu
+          > .menu-item-has-children.is-active
+          > a {
+          background-image: url(/wp-content/themes/bilberrry/assets/images/menu-up-dark.svg);
+        }
+      }
+      @media (max-width: 1170px) {
+        #header .container {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+      @media (max-width: 820px) {
+        #mobile-menu {
+          display: block;
+          position: fixed;
+          z-index: 999;
+          width: 40%;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          padding: 50px;
+          display: flex;
+          opacity: 0;
+          transform: translateX(-100%);
+          transition: transform 0.2s;
+        }
+      }
+      @media (max-width: 820px) and (max-width: 767px) {
+        #mobile-menu {
+          width: 75%;
+        }
+      }
+      @media (max-width: 820px) {
+        #mobile-menu .logo-icon {
+          margin-bottom: 35px;
+        }
+        #mobile-menu .logo-icon a:after {
+          display: none;
+        }
+        #mobile-menu ul.menu {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        #mobile-menu ul.menu > .menu-item {
+          font-size: 30px;
+          line-height: 0.93;
+          margin: 0 0 15px 0;
+          padding: 0;
+          display: block;
+        }
+        #mobile-menu ul.menu .menu-theme-switcher {
+          display: none;
+        }
+        #mobile-menu ul.menu > .menu-item-has-children .sub-menu {
+          display: none;
+        }
+        #mobile-menu ul.menu > .menu-item-has-children > a {
+          padding-right: 22px;
+          white-space: nowrap;
+          background: url(/wp-content/themes/bilberrry/assets/images/menu-down-dark.svg)
+            right center no-repeat;
+        }
+        #mobile-menu ul.menu > .menu-item-has-children .sub-menu a:after {
+          display: none !important;
+        }
+        #mobile-menu
+          ul.menu
+          > .menu-item-has-children
+          .sub-menu
+          .current-menu-item
+          a {
+          box-shadow: inset 0 -1px 0 0 #3b3b3b, inset 0 -1px 0 0 #3b3b3b;
+        }
+        #mobile-menu ul.menu > .menu-item-has-children.is-active > a {
+          background-image: url(/wp-content/themes/bilberrry/assets/images/menu-up-dark.svg);
+        }
+        #mobile-menu ul.sub-menu {
+          margin: 20px 0 20px 15px;
+          padding: 0 0 0 0;
+        }
+        #mobile-menu ul.sub-menu > .menu-item {
+          font-size: 16px;
+          line-height: 26px;
+          margin: 0 0 10px 0;
+          padding: 0;
+          display: block;
+        }
+        #mobile-menu ul.sub-menu > .menu-item br {
+          display: none;
+        }
+        .theme-light #mobile-menu ul.menu > .menu-item-has-children > a {
+          background-image: url(/wp-content/themes/bilberrry/assets/images/menu-down-white.svg);
+        }
+        .theme-light
+          #mobile-menu
+          ul.menu
+          > .menu-item-has-children.is-active
+          > a {
+          background-image: url(/wp-content/themes/bilberrry/assets/images/menu-up-white.svg);
+        }
+        .theme-light
+          #mobile-menu
+          ul.menu
+          > .menu-item-has-children
+          .sub-menu
+          .current-menu-item
+          a {
+          box-shadow: inset 0 -1px 0 0 #fff, inset 0 -1px 0 0 #fff;
+        }
+        #header .row {
+          height: 70px;
+        }
+        #header nav {
+          display: none;
+        }
+        #content {
+          padding-top: 70px;
+        }
+        .admin-bar #header nav {
+          top: 32px;
+        }
+      }
+      @media (max-width: 820px) and (max-width: 782px) {
+        .admin-bar #header nav {
+          top: 46px;
+        }
+      }
+      @media (max-width: 820px) and (max-width: 600px) {
+        .admin-bar #header nav {
+          top: 0;
+        }
+      }
+      @media (max-width: 820px) {
+        body.is-menu-open {
+          overflow: hidden;
+        }
+        body.is-menu-open #mobile-menu {
+          transform: translateX(0);
+          opacity: 1;
+          overflow: auto;
+        }
+        body.is-menu-open #mobile-menu ul li {
+          -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+          -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+        }
+        body.is-menu-open #menu-header-menu {
+          padding-bottom: 40px;
+        }
+      }
+      @media (max-width: 350px) {
+        #mobile-menu {
+          width: 85%;
+        }
+      }
+      a.mobile-menu-toggler {
+        width: 30px;
+        height: 30px;
+        display: none;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        z-index: 9999;
+      }
+      a.mobile-menu-toggler:after {
+        display: none;
+      }
+      @media (max-width: 820px) {
+        a.mobile-menu-toggler {
+          display: flex;
+        }
+      }
+      .hamburger {
+        display: none;
+        cursor: pointer;
+        transition-property: opacity, -webkit-filter;
+        transition-property: opacity, filter;
+        transition-property: opacity, filter, -webkit-filter;
+        transition-duration: 0.15s;
+        transition-timing-function: linear;
+        font: inherit;
+        color: inherit;
+        text-transform: none;
+        background-color: transparent;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        height: 16px;
+      }
+      @media (max-width: 700px) {
+        .hamburger {
+          display: block;
+        }
+      }
+      .hamburger-box {
+        width: 22px;
+        height: 16px;
+        display: inline-block;
+        position: relative;
+      }
+      .hamburger-inner {
+        display: block;
+        top: 50%;
+        margin-top: -2px;
+      }
+      .hamburger-inner,
+      .hamburger-inner::before,
+      .hamburger-inner::after {
+        width: 22px;
+        height: 1px;
+        position: absolute;
+        transition-property: transform;
+        transition-duration: 0.15s;
+        transition-timing-function: ease;
+      }
+      .hamburger-inner::before,
+      .hamburger-inner::after {
+        content: "";
+        display: block;
+      }
+      .hamburger-inner::before {
+        top: -6px;
+      }
+      .hamburger-inner::after {
+        bottom: -6px;
+      }
+      .hamburger--squeeze .hamburger-inner {
+        transition-duration: 0.075s;
+        transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+      .hamburger--squeeze .hamburger-inner::before {
+        transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+      }
+      .hamburger--squeeze .hamburger-inner::after {
+        transition: bottom 0.075s 0.12s ease,
+          transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+      .hamburger--squeeze.is-active .hamburger-inner {
+        transform: rotate(45deg);
+        transition-delay: 0.12s;
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+      .hamburger--squeeze.is-active .hamburger-inner::before {
+        top: 0;
+        opacity: 0;
+        transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+      }
+      .hamburger--squeeze.is-active .hamburger-inner::after {
+        bottom: 0;
+        transform: rotate(-90deg);
+        transition: bottom 0.075s ease,
+          transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+      @media (min-width: 820px) {
+        .mobile-only {
+          display: none !important;
+        }
+      }
+      @media (max-width: 820px) {
+        .mobile-only {
+          display: block;
+        }
+      }
+      @-webkit-keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          transform: translate3d(-100%, 0, 0);
+        }
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      @keyframes fadeInLeft {
+        from {
+          opacity: 0;
+          transform: translate3d(-100%, 0, 0);
+        }
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+      .fadeInLeft {
+        -webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+      }
+
+      /*# sourceMappingURL=critical-css.css.map */
+    </style>
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <!-- This site is optimized with the Yoast SEO plugin v21.0 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>Marketing Digital - Westech</title>
+    <link rel="canonical" href="digital-transformation.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Marketing Digital - Westech" />
+    <meta
+      property="og:url"
+      content="https://westechdev.com/digital-transformation/"
+    />
+    <meta property="og:site_name" content="Westech" />
+    <meta
+      property="article:modified_time"
+      content="2022-09-01T00:10:42+00:00"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" class="yoast-schema-graph">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://bilberrry.com/digital-transformation/",
+            "url": "https://bilberrry.com/digital-transformation/",
+            "name": "Digital Transformation - Bilberrry",
+            "isPartOf": { "@id": "https://bilberrry.com/#website" },
+            "datePublished": "2022-08-16T13:40:44+00:00",
+            "dateModified": "2022-09-01T00:10:42+00:00",
+            "breadcrumb": {
+              "@id": "https://bilberrry.com/digital-transformation/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": ["https://bilberrry.com/digital-transformation/"]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://bilberrry.com/digital-transformation/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://bilberrry.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Digital Transformation"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://bilberrry.com/#website",
+            "url": "https://bilberrry.com/",
+            "name": "Bilberrry",
+            "description": "A Full-Service Digital Innovation Agency",
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    </script>
+    <!-- / Yoast SEO plugin. -->
+
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body
+        .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      body .is-layout-grid > * {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://bilberrry.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8"
+    />
+    <link
+      rel="stylesheet"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/libs/bootstrap/bootstrap-reboot.min.css?ver=171230032023"
+    />
+    <link
+      rel="stylesheet"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/libs/bootstrap/bootstrap-grid.min.css?ver=171230032023"
+    />
+    <link
+      rel="stylesheet"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/libs/slick/slick.min.css?ver=171230032023"
+    />
+    <link
+      rel="alternate stylesheet"
+      id="theme-style-light-css"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/css/theme-light.css?ver=171230032023"
+    />
+    <link
+      rel="stylesheet"
+      id="theme-style-dark-css"
+      href="https://bilberrry.com/wp-content/themes/bilberrry/assets/css/theme-dark.css?ver=171230032023"
+    />
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0"
+      id="jquery-core-js"
+    ></script>
+    <link rel="icon" href="Favicon.svg" sizes="32x32" />
+    <link rel="icon" href="Favicon.svg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="Favicon.svg" />
+    <meta name="msapplication-TileImage" content="Favicon.svg" />
+    <link rel="icon" href="Favicon.svg" sizes="32x32" />
+    <link rel="icon" href="Favicon.svg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="Favicon.svg" />
+    <meta name="msapplication-TileImage" content="favicon.svg" />
+  </head>
+  <body
+    class="page-template-default page page-id-1305 page-digital-transformation"
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PFK45T7"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <nav id="desktop-services-menu">
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="menu-title">
+              <a href="digital-transformation.html"
+                >Marketing<br />
+                Digital</a
+              >
+            </div>
+            <div class="menu-desc">
+              Conduzimos a transformação digital da sua marca com nossa
+              experiência em marketing. Desenvolvemos estratégias personalizadas
+              que ampliam sua presença online, engajam seu público-alvo e
+              impulsionam o crescimento dos negócios.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="menu-title">
+              <a href="headless-ecommerce-development.html"
+                >Integração<br />
+                Completa</a
+              >
+            </div>
+            <div class="menu-desc">
+              Nossa abordagem abrangente para o sucesso digital. O serviço
+              inclui o desenvolvimento de sua identidade de marca, alinhamento
+              estratégico de marketing e o design e desenvolvimento de um site
+              totalmente personalizado.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="menu-title">
+              <a href="custom-software-development.html"
+                >Softwares<br />
+                Customizados</a
+              >
+            </div>
+            <div class="menu-desc">
+              Colaboramos com startups e empresas globais para criar aplicativos
+              web e móveis personalizados que impulsionam seus negócios.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="menu-title">
+              <a href="website-design-development.html"
+                >Desenvolvimento<br />
+                de Websites</a
+              >
+            </div>
+            <div class="menu-desc">
+              Concebemos e desenvolvemos websites incríveis que proporcionam
+              experiências de classe mundial aos seus usuários.
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav id="mobile-menu">
+      <div>
+        <div class="logo-icon">
+          <a href="index.html">
+            <img class="dark-theme-only" src="LOGO.svg" alt="Westech" />
+            <img class="light-theme-only" src="LOGO 2.svg" alt="Westech" />
+          </a>
+        </div>
+
+        <ul id="menu-header-menu" class="menu">
+          <li
+            id="menu-item-1304"
+            class="menu-item-services menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1304"
+          >
+            <a href="#">Serviços</a>
+            <ul class="sub-menu">
+              <li
+                id="menu-item-1314"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1314"
+              >
+                <a href="digital-transformation.html"
+                  >Marketing<br />
+                  Digital</a
+                >
+              </li>
+              <li
+                id="menu-item-1771"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1771"
+              >
+                <a href="headless-ecommerce-development.html"
+                  >Integração Completa</a
+                >
+              </li>
+              <li
+                id="menu-item-1317"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1317"
+              >
+                <a href="custom-software-development.html"
+                  >Softwares<br />
+                  Customizados</a
+                >
+              </li>
+              <li
+                id="menu-item-1318"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1318"
+              >
+                <a href="website-design-development.html"
+                  >Desenvolvimento<br />
+                  de Websites</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li
+            id="menu-item-24"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
+          >
+            <a href="work.html">Trabalhos</a>
+          </li>
+          <li
+            id="menu-item-25"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"
+          >
+            <a href="approach.html">Abordagem</a>
+          </li>
+          <!--
+          <li
+            id="menu-item-1003"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003"
+          >
+            <a href="blog.html">Blog</a>
+          </li>-->
+          <li
+            id="menu-item-26"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
+          >
+            <a href="about.html">Sobre</a>
+          </li>
+          <li
+            id="menu-item-27"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"
+          >
+            <a href="contact.html">Contacto</a>
+          </li>
+          <li
+            class="menu-theme-switcher menu-item menu-item-type-custom menu-item-object-custom"
+          >
+            <a href="#" class="theme-switcher-link"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header id="header">
+      <div class="container container-fluid">
+        <div class="row align-items-center">
+          <div class="col">
+            <a class="logo" href="index.html">
+              <img class="dark-theme-only" src="LOGO 2.svg" alt="Westech" />
+              <img class="light-theme-only" src="LOGO.svg" alt="Westech" />
+            </a>
+          </div>
+          <div
+            class="col-mobile-controls col d-flex justify-content-end align-items-center"
+          >
+            <a
+              href="#"
+              class="mobile-menu-toggler hamburger hamburger--squeeze"
+            >
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </a>
+
+            <a href="#" class="theme-switcher-link mobile-only"></a>
+
+            <nav>
+              <div>
+                <ul id="menu-header-menu-1" class="menu">
+                  <li
+                    class="menu-item-services menu-item menu-item-type-custom menu-item-object-custom menu-item-1304"
+                  >
+                    <a href="#">Serviços</a>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
+                  >
+                    <a href="work.html">Trabalhos</a>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"
+                  >
+                    <a href="approach.html">Abordagem</a>
+                  </li>
+                  <!--
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1003"
+                  >
+                    <a href="blog.html">Blog</a>
+                  </li>-->
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
+                  >
+                    <a href="about.html">Sobre</a>
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"
+                  >
+                    <a href="contact.html">Contacto</a>
+                  </li>
+                  <li
+                    class="menu-theme-switcher menu-item menu-item-type-custom menu-item-object-custom"
+                  >
+                    <a href="#" class="theme-switcher-link"></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="content">
+      <div
+        id="hero-section"
+        class="hero-section bg-lazy bg-theme-switch lazy with-bg title-font-size-big with-small-text"
+        data-midnight="white"
+        data-src="https://bilberrry.com/wp-content/uploads/2022/09/22_BB_HeaderIMG_ALT-01.png"
+        data-img-theme-light="https://bilberrry.com/wp-content/uploads/2022/09/22_BB_HeaderIMG_ALT-01.png"
+        data-img-theme-dark="https://bilberrry.com/wp-content/uploads/2022/09/22_BB_HeaderIMG_ALT-01.png"
+      >
+        <img
+          class="preloader"
+          src="https://bilberrry.com/wp-content/uploads/2022/09/22_BB_HeaderIMG_ALT-01-42x42.png"
+          alt=""
+        />
+
+        <div class="hero-text-container">
+          <div class="small-text">
+            Marketing<br />
+            Digital
+          </div>
+        </div>
+        <div>
+          <h1 class="main-title-tag">
+            FAÇA ACONTECER<br />
+            COMECE AGORA
+          </h1>
+        </div>
+      </div>
+
+      <section class="section-variable-columns cols-num-3">
+        <div class="section-container">
+          <div class="col-title">
+            <div class="inside">
+              <h4>
+                HABILIDADES<br />
+                DE PONTA
+              </h4>
+            </div>
+          </div>
+
+          <div class="col-content">
+            <div class="inside">
+              <h2 class="font-size-bigger">
+                Somos uma mistura equilibrada de consultoria estratégica,
+                empresa de desenvolvimento, estúdio de design & Marketing
+                Especilaizado.
+              </h2>
+
+              <div class="row row-cols">
+                <div class="col-item col-md-4">
+                  <h3>Estratégia</h3>
+
+                  <div class="txt">
+                    Consultoria de negócios • Estratégia de modernização digital
+                    • Planejamento de desenvolvimento de produtos • Planejamento
+                    ágil de projetos • Execução de Marketing
+                  </div>
+                </div>
+                <div class="col-item col-md-4">
+                  <h3>Design</h3>
+
+                  <div class="txt">
+                    UI/UX design • Design de Website • Identidade Visual •
+                    Marketing Digital
+                  </div>
+                </div>
+                <div class="col-item col-md-4">
+                  <h3>Execução</h3>
+
+                  <div class="txt">
+                    Aplicações Web • Aplicações Móveis • websites Otimizados •
+                    Soluções Google • Soluções Meta • Mail Marketing
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-variable-columns cols-num-1">
+        <div class="section-container">
+          <div class="col-title">
+            <div class="inside">
+              <h4>
+                TRANSFORME<br />
+                SUA EMPRESA
+              </h4>
+            </div>
+          </div>
+
+          <div class="col-content">
+            <div class="inside">
+              <h2 class="font-size-bigger">
+                Nossa abordagem de longo prazo e integrada nos impulsiona a
+                resolver desafios complexos e oferecer soluções digitais que
+                transformam.
+              </h2>
+
+              <div class="desc-text">
+                Conduzimos a transformação digital da sua marca com nossa
+                experiência em marketing. Desenvolvemos estratégias
+                personalizadas que ampliam sua presença online, engajam seu
+                público-alvo e impulsionam o crescimento dos negócios.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-case-studies-list photo-pos-left num-2">
+        <div class="section-container">
+          <div class="col-img">
+            <div class="shortcode progressive-image">
+              <figure style="max-width: 640px">
+                <picture style="padding-top: 128.28%" class="master-image lazy">
+                  <data-src
+                    srcset="https://bilberrry.com/wp-content/uploads/2022/08/22_BB_InlinenIMG_DB-01.png 2x, https://bilberrry.com/wp-content/uploads/2022/08/22_BB_InlinenIMG_DB-01.png 1x"
+                    media="(min-width: 1200px)"
+                  ></data-src>
+
+                  <data-img
+                    src="https://bilberrry.com/wp-content/uploads/2022/08/22_BB_InlinenIMG_DB-01.png"
+                  ></data-img>
+                </picture>
+
+                <img
+                  class="placeholder"
+                  src="https://bilberrry.com/wp-content/uploads/2022/08/22_BB_InlinenIMG_DB-01-42x42.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-content">
+            <h2>CAISIMOVEL</h2>
+
+            <div class="desc-text">
+              Nossa equipe desenhou e aplicou as estratégias nas plataformas
+              <br />
+              necessárias para modernizar uma das mais destacadas imobiliárias
+              em Angola.
+            </div>
+
+            <div class="items-list">
+              <div class="item">
+                <a>
+                  <span>Estratégias SEO de alta performance </span>
+                </a>
+              </div>
+              <div class="item">
+                <a>
+                  <span
+                    >Estratégias produtivas de Captação de Leads e
+                    Monetização</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-case-studies-list photo-pos-right num-2">
+        <div class="section-container">
+          <div class="col-img">
+            <div class="shortcode progressive-image">
+              <figure style="max-width: 640px">
+                <picture style="padding-top: 128.28%" class="master-image lazy">
+                  <data-src
+                    srcset="https://bilberrry.com/wp-content/uploads/2022/08/pasco.jpg 2x, https://bilberrry.com/wp-content/uploads/2022/08/pasco.jpg 1x"
+                    media="(min-width: 1200px)"
+                  ></data-src>
+
+                  <data-img
+                    src="https://bilberrry.com/wp-content/uploads/2022/08/pasco.jpg"
+                  ></data-img>
+                </picture>
+
+                <img
+                  class="placeholder"
+                  src="https://bilberrry.com/wp-content/uploads/2022/08/pasco-42x42.jpg"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-content">
+            <h2>
+              BAÚ DAS<br />
+              JÓIAS
+            </h2>
+
+            <div class="desc-text">
+              Colaboramos com esta ourivesaria de longa data para realizar uma
+              transformação digital completa em suas operações.
+            </div>
+
+            <div class="items-list">
+              <div class="item">
+                <a>
+                  <span>Redesenho progressivo da estratégia de Marketing</span>
+                </a>
+              </div>
+              <div class="item">
+                <a>
+                  <span>Otimizaçao dos processos de captaçao de Leads</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-get-in-touch">
+        <div class="section-container">
+          <div class="col-image">
+            <img
+              src="https://bilberrry.com/wp-content/uploads/2022/08/logos.png"
+              alt=""
+            />
+          </div>
+
+          <div class="col-content">
+            <div class="content-inside">
+              <h2>
+                Alguns dos melhores<br />
+                projectos são mantidos<br />
+                em segredo (NDA)
+              </h2>
+
+              <div class="desc-text">
+                Interessado em saber mais? Entre em contato, e nós lhe
+                explicaremos como concebemos, projetamos e desenvolvemos
+                websites de destaque e experiências digitais com outras
+                organizações de classe mundial.
+              </div>
+
+              <div
+                class="wpcf7 no-js"
+                id="wpcf7-f1413-p1312-o1"
+                lang="en-US"
+                dir="ltr"
+              >
+                <div class="screen-reader-response">
+                  <p role="status" aria-live="polite" aria-atomic="true"></p>
+                  <ul></ul>
+                </div>
+                <form
+                  action="https://formsubmit.co/el/feduku"
+                  method="post"
+                  class="wpcf7-form init"
+                  aria-label="Contact form"
+                  novalidate="novalidate"
+                  data-status="init"
+                >
+                  <div style="display: none">
+                    <input type="hidden" name="_wpcf7" value="1413" />
+                    <input type="hidden" name="_wpcf7_version" value="5.8" />
+                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                    <input
+                      type="hidden"
+                      name="_wpcf7_unit_tag"
+                      value="wpcf7-f1413-p1312-o1"
+                    />
+                    <input
+                      type="hidden"
+                      name="_wpcf7_container_post"
+                      value="1312"
+                    />
+                    <input
+                      type="hidden"
+                      name="_wpcf7_posted_data_hash"
+                      value=""
+                    />
+                    <input
+                      type="hidden"
+                      name="_wpcf7_recaptcha_response"
+                      value=""
+                    />
+                  </div>
+                  <input
+                    class="wpcf7-form-control wpcf7-hidden"
+                    value=""
+                    type="hidden"
+                    name="utm_campaign"
+                  />
+                  <input
+                    class="wpcf7-form-control wpcf7-hidden"
+                    value=""
+                    type="hidden"
+                    name="utm_source"
+                  />
+                  <input
+                    class="wpcf7-form-control wpcf7-hidden"
+                    value=""
+                    type="hidden"
+                    name="utm_medium"
+                  />
+                  <div class="form-fields">
+                    <span class="wpcf7-form-control-wrap" data-name="your-name">
+                      <input
+                        size="40"
+                        class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                        aria-required="true"
+                        aria-invalid="false"
+                        placeholder="Nome*"
+                        value=""
+                        type="text"
+                        name="your-name"
+                      />
+                    </span>
+                    <span
+                      class="wpcf7-form-control-wrap"
+                      data-name="your-email"
+                    >
+                      <input
+                        size="40"
+                        class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                        aria-required="true"
+                        aria-invalid="false"
+                        placeholder="Email*"
+                        value=""
+                        type="email"
+                        name="your-email"
+                      />
+                    </span>
+                  </div>
+                  <input
+                    class="wpcf7-form-control wpcf7-submit has-spinner"
+                    type="submit"
+                    value="Enviar"
+                  />
+                  <div class="wpcf7-response-output" aria-hidden="true"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-notes">
+        <div class="section-container">
+          <div class="col-title">
+            <h4>Blog</h4>
+          </div>
+
+          <div class="col-content">
+            <div class="items">
+              <div class="item">
+                <a>Por que as transformações digitais falham? (Brevemente)</a>
+              </div>
+              <div class="item">
+                <a
+                  >Por que é tão dificil determinar um tempo para um projecto?
+                  (Brevemente)</a
+                >
+              </div>
+              <div class="item">
+                <a>Por que usamos navegação baseada em tarefas? (Brevemente)</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!------------------------------------- Footer ------------------------------------->
+    <div id="footer-push"></div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-7">
+            <a class="logo" href="LOGO 2.svg">
+              <img class="dark-theme-only" src="LOGO 2.svg" alt="Westech" />
+              <img class="light-theme-only" src="LOGO.svg" alt="Westech" />
+            </a>
+
+            <nav>
+              <ul id="menu-footer-menu" class="menu">
+                <li
+                  id="menu-item-28"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-2 menu-item-28"
+                >
+                  <a href="index.html" aria-current="page">Home</a>
+                </li>
+                <li
+                  id="menu-item-29"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"
+                >
+                  <a href="work.html">Trabalhos</a>
+                </li>
+                <li
+                  id="menu-item-30"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"
+                >
+                  <a href="approach.html">Abordagem</a>
+                </li>
+                <!--
+                <li
+                  id="menu-item-1002"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1002"
+                >
+                  <a href="blog.html">Blog</a>
+                </li>-->
+                <li
+                  id="menu-item-31"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"
+                >
+                  <a href="about.html">Sobre</a>
+                </li>
+                <li
+                  id="menu-item-32"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"
+                >
+                  <a href="contact.html">Contacto</a>
+                </li>
+                <li
+                  class="menu-theme-switcher menu-item menu-item-type-custom menu-item-object-custom"
+                >
+                  <a href="#" class="theme-switcher-link"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div id="footer-cta" class="col-6 col-sm-5">
+            <h2 class="h3">
+              TEM ALGUM <br />
+              PROJECTO?
+            </h2>
+
+            <a href="contact.html" class="button">Fale Connosco</a>
+          </div>
+        </div>
+        <div id="bottom-bar" class="row">
+          <div class="col-sm-7">
+            <p>
+              &copy;2023 Todos os Direitos Reservados.
+              <a class="privacy" href="privacy_and_police.html"
+                >Política de Privacidade</a
+              >
+            </p>
+          </div>
+          <div class="col-sm-5">
+            <p>Westech Developers Copyright</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!------------------------------------- End of Footer ------------------------------------->
+
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8"
+      id="swv-js"
+    ></script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+      /* <![CDATA[ */
+      var wpcf7 = {
+        api: {
+          root: "https:\/\/bilberrry.com\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+        cached: "1",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8"
+      id="contact-form-7-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/themes/bilberrry/assets/libs/lazy/jquery.lazy.min.js?ver=171230032023"
+      id="lazy-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/themes/bilberrry/assets/libs/lazy/jquery.lazy.picture.min.js?ver=171230032023"
+      id="lazy-picture-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/themes/bilberrry/assets/libs/slick/slick.min.js?ver=171230032023"
+      id="slick-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4"
+      id="imagesloaded-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/themes/bilberrry/assets/libs/midnight/midnight.jquery.min.js?ver=171230032023"
+      id="midnight-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2"
+      id="jquery-ui-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.2"
+      id="jquery-ui-datepicker-js"
+    ></script>
+    <script id="jquery-ui-datepicker-js-after" type="text/javascript">
+      jQuery(function (jQuery) {
+        jQuery.datepicker.setDefaults({
+          closeText: "Close",
+          currentText: "Today",
+          monthNames: [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December",
+          ],
+          monthNamesShort: [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ],
+          nextText: "Next",
+          prevText: "Previous",
+          dayNames: [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+          ],
+          dayNamesShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+          dayNamesMin: ["S", "M", "T", "W", "T", "F", "S"],
+          dateFormat: "MM d, yy",
+          firstDay: 1,
+          isRTL: false,
+        });
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/themes/bilberrry/assets/libs/jquery.cookie.js?ver=171230032023"
+      id="cookie-js"
+    ></script>
+    <script type="text/javascript" id="theme-front-js-extra">
+      /* <![CDATA[ */
+      var jsVars = {
+        ajaxurl: "https:\/\/bilberrry.com\/wp-admin\/admin-ajax.php",
+        currTheme: "dark",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/themes/bilberrry/assets/js/theme.min.js?ver=171230032023"
+      id="theme-front-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://www.google.com/recaptcha/api.js?render=6Lf5u6UZAAAAAN2MhMekf52c26LyheLhUHt6iaxL&#038;ver=3.0"
+      id="google-recaptcha-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2"
+      id="wp-polyfill-inert-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11"
+      id="regenerator-runtime-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
+      id="wp-polyfill-js"
+    ></script>
+    <script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+      /* <![CDATA[ */
+      var wpcf7_recaptcha = {
+        sitekey: "6Lf5u6UZAAAAAN2MhMekf52c26LyheLhUHt6iaxL",
+        actions: { homepage: "homepage", contactform: "contactform" },
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://bilberrry.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.8"
+      id="wpcf7-recaptcha-js"
+    ></script>
+  </body>
+</html>
